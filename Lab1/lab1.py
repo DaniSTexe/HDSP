@@ -1,4 +1,4 @@
-import cv2 
+""" import cv2 
 import sys
 from os import stat
 import numpy
@@ -20,9 +20,14 @@ print(f'tamaño {imagen2.nbytes}')
 print(f'tamaño {imagen3.nbytes}')
 print(f'tamaño {imagen4.nbytes}')
 
-
-
 #image_rgb = cv2.cvtColor(imagen,cv2.COLOR_BGR2RGB)
 cv2.imshow('ok',imagen)
 cv2.waitKey()
-cv2.destroyAllWindows()
+cv2.destroyAllWindows() """
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+array = np.ones((1000, 1000), int)
+plt.imshow(array)
+plt.show()
